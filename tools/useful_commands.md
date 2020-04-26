@@ -11,6 +11,17 @@ sudo udevadm trigger
 
 ### Bash
 
+See: https://devhints.io/bash
+
+#### SSH Setup
+
+SSH forwarding
+```
+ssh-add
+ssh -A <dest>
+export SSH_AUTH_SOCK=/tmp/ssh-XXX/agent.YYY
+```
+
 #### Argument shortcuts
 
 https://stackoverflow.com/questions/4009412/how-to-use-arguments-from-previous-command
